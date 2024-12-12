@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <project default="main">
-	<property name="workspace.dir" value="/home/rye/QASCAD_demo/QASCAD/eclipse_workspace/AD2PRISM_Transfromation_workspace"/>
-		<property name="model.name" value="QASCAD_demo"/>
-		<property name="model.shortname" value="QASCAD_demo"/>
+	<property name="workspace.dir" value="/home/rye/QANAD_demo/QANAD/eclipse_workspace/AD2PRISM_Transfromation_workspace"/>
+		<property name="model.name" value="QANAD_demo"/>
+		<property name="model.shortname" value="QANAD_demo"/>
 		<property name="output.folder" value="ctmc"/>
 		<target name="main">
 			<!-- 
