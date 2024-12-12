@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmlns:workflow="http:///schemas/workflow/_NaXY4Iz9Ee67KISOTitqrQ/49" xsi:schemaLocation="http:///schemas/workflow/_NaXY4Iz9Ee67KISOTitqrQ/49 ../com.eclipsesource.workflow.profile/workflow.profile.profile.uml#_NaZ1IIz9Ee67KISOTitqrQ">
-  <uml:Model xmi:id="_m1eYwMArEe6XZ9uf3Ax9tw" name="QASCAD_demo">
+  <uml:Model xmi:id="_m1eYwMArEe6XZ9uf3Ax9tw" name="QANAD_demo">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_m2K8UMArEe6XZ9uf3Ax9tw">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>

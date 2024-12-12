@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <project default="main">
-	<property name="workspace.dir" value="/Users/ky582/QASCAD_demo/QASCAD/eclipse_workspace/AD2PRISM_Transfromation_workspace"/>
+	<property name="workspace.dir" value="/Users/ky582/QANAD_demo/QANAD/eclipse_workspace/AD2PRISM_Transfromation_workspace"/>
 	<property name="prism.model.name" value="six_dice_prism.model"/>
 	<property name="prism.code.name" value="six_dice.prism"/>
 	<property name="property.file.name" value="die.props"/>
