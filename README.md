@@ -1,7 +1,7 @@
-Quantitative Assurance and Synthesis of Controllers from Activity Diagrams (QASCAD)
+Quantitative Analysis from Activity Diagrams using Parametric Probabilistic Model Checking and Synthesis
 ---
 
-This repository contains the open-source Eclipse-based QASCAD tool that we are developing in the [SESAME](https://www.sesame-project.org/) project to use probabilistic model checking (by [PRISM](https://www.prismmodelchecker.org/) and [Storm](https://www.stormchecker.org/)) to verify parametric probabilistic models captured in UML Acitivity Diagrams (ADs), explore their design space (based on parametric model checking), and further support the synthesis of the models. Please refer to our preprint article ["Quantitative Assurance and Synthesis of Controllers from Activity Diagrams"](https://arxiv.org/abs/2403.00169) on arxiv.org for more details about our approach and the theoretical foundation underneath the tool.
+This repository contains the open-source Eclipse-based QANAD (previously called QASCAD) tool that we are developing in the [SESAME](https://www.sesame-project.org/) project to use probabilistic model checking (by [PRISM](https://www.prismmodelchecker.org/) and [Storm](https://www.stormchecker.org/)) to verify parametric probabilistic models captured in UML Acitivity Diagrams (ADs), explore their design space (based on parametric model checking), and further support the synthesis of the models. Please refer to our preprint article ["Quantitative Assurance and Synthesis of Controllers from Activity Diagrams"](https://arxiv.org/abs/2403.00169) on arxiv.org for more details about our approach and the theoretical foundation underneath the tool.
 
 Additionally, seven case studies, that we have evaluated using our tool, are also deposited here.
 
@@ -43,12 +43,12 @@ Table of Contents
   + [six_dice_parametric](./eclipse_workspace/AD2PRISM_Transfromation_workspace/six_dice_parametric/): a case study from literature
   + [Travel_management](./eclipse_workspace/AD2PRISM_Transfromation_workspace/Travel_management/): a case study from literature
   + [travel_web_ctmc](./eclipse_workspace/AD2PRISM_Transfromation_workspace/travel_web_ctmc/): a case study from literature
-  + [QASCAD_demo](./eclipse_workspace/AD2PRISM_Transfromation_workspace/QASCAD_demo/): a dummy example for the tutorial or demonstration 
+  + [QANAD_demo](./eclipse_workspace/AD2PRISM_Transfromation_workspace/QANAD_demo/): a dummy example for the tutorial or demonstration 
 
 - [Examples](./Examples/): the release version of case studies, including activity diagrams, corresponding generated PRISM code and properties, and verification results for various Markov models
 
 # How to install our tool?
-QASCAD is an Eclipse-based tool, uses the [Papyrus](https://eclipse.dev/papyrus/) and [Epsilon](https://eclipse.dev/epsilon/) projects. In order to use it, we need to install an Eclipse and the corresponding plugins.
+QANAD is an Eclipse-based tool, uses the [Papyrus](https://eclipse.dev/papyrus/) and [Epsilon](https://eclipse.dev/epsilon/) projects. In order to use it, we need to install an Eclipse and the corresponding plugins.
 
 ## Prerequisites
 Our tool generates PRISM code from UML activity diagrams. In order for verification, we need PRISM and/or Storm to be installed. Follow the [PRISM instruction](https://www.prismmodelchecker.org/download.php) or [Storm instruction](https://www.stormchecker.org/) to download and install PRISM or Storm.
@@ -57,7 +57,7 @@ Our tool generates PRISM code from UML activity diagrams. In order for verificat
 
 ## Steps 
 1. Install Java 17. For example, `$sudo apt install openjdk-17-jdk` on Ubuntu
-2. Clone or download the GitHub repository into your local folder (e.g., ~/QASCAD_demo): `$ git clone git@github.com:RandallYe/QASCAD.git`
+2. Clone or download the GitHub repository into your local folder (e.g., ~/QANAD_demo): `$ git clone git@github.com:RandallYe/QANAD.git`
 3. Download the "Eclipse Modeling Tools" for your platform from [Eclipse 2023-03](https://www.eclipse.org/downloads/packages/release/2023-03/r)
 4. Install the Eclipse
 5. In Eclipse, choose "Install New Software", then "Manage", "Available Software Sites", uncheck "JustJ", "Latest Eclipse IDE...", "Latest Eclipse Simulation..."
@@ -66,7 +66,7 @@ Our tool generates PRISM code from UML activity diagrams. In order for verificat
    - Choose "Install New Software" and then add this update site
    - Choose "Epsilon core", "Epsilon EMF integration", and "Epsilon UML integration" to install
 8. In Eclipse, from "Windows", "Perspective", "Open Perspective", and choose "Papyrus" 
-  - In the "Project Explorer", "Import ...", Select "Projects from folders or Archive", then choose the folder `~/QASCAD_demo/QASCAD/eclipse_workspace/AD2PRISM_Transfromation_workspace/`, select all projects to import them into the new installed Eclipse
+  - In the "Project Explorer", "Import ...", Select "Projects from folders or Archive", then choose the folder `~/QANAD_demo/QANAD/eclipse_workspace/AD2PRISM_Transfromation_workspace/`, select all projects to import them into the new installed Eclipse
 9. Deploy the plugin "org.eclipse.epsilon.ad2prism.tools" into your Eclipse
   * Select the "org.eclipse.epsilon.ad2prism.tools" project, right click, and choose "Export...", "Deployable plugins and fragments", and "Install into host. Repository"
 10. Register the PRISM ecore metamodel. 
@@ -76,17 +76,17 @@ Our tool generates PRISM code from UML activity diagrams. In order for verificat
   * In the Ant tab, add the buildfile [build.xml](./eclipse_workspace/AD2PRISM_Transfromation_workspace/SysML_ActivityDiagram2PRISM/Ant/build.xml)
   * In the Ant tab, right-click a target in the buildfile and choose "Run As...", then "2 Ant build ...", remember to set "Runtime JRE" in the JRE tab to "Run in the same JRE as the workspace" 
   * Change workspace path in `build.xml`: 
-    - Change the value "workspace.dir" to `~/QASCAD_demo/QASCAD/eclipse_workspace/AD2PRISM_Transfromation_workspace/`
+    - Change the value "workspace.dir" to `~/QANAD_demo/QANAD/eclipse_workspace/AD2PRISM_Transfromation_workspace/`
   * In the Ant tab, choose the "main" target (the default `six_side`), right click it and choose "Run As ...", then "1. Ant build..." to run the transformation and verification automatically
 
 ## Installation video
 - Installation of Eclipse, Papyrus, and Epsilon
 
-[![QASCAD Installation](./pics/QASCAD_Eclipse_IDE_installation_1.png)](https://www.youtube.com/watch?v=EhhQAlD1P2Q "QASCAD Installation")
+[![QANAD Installation](./pics/QANAD_Eclipse_IDE_installation_1.png)](https://www.youtube.com/watch?v=EhhQAlD1P2Q "QANAD Installation")
 
 - Configuration
 
-[![QASCAD Configuration](./pics/QASCAD_Eclipse_IDE_installation_2.png)](https://www.youtube.com/watch?v=NTyLdK8tQvo "QASCAD Configuration")
+[![QANAD Configuration](./pics/QANAD_Eclipse_IDE_installation_2.png)](https://www.youtube.com/watch?v=NTyLdK8tQvo "QANAD Configuration")
 
 ## Other considerations
 - A separate Java 17 installation might not be required if the Eclipse we are installing already comes with Java 17
@@ -95,11 +95,11 @@ Our tool generates PRISM code from UML activity diagrams. In order for verificat
 
 # How to use our tool?
 
-A tutorial (2 videos) below shows how to use QASCAD for verification.
+A tutorial (2 videos) below shows how to use QANAD for verification.
 
-[![QASCAD Tutorial 1](./pics/QASCAD_tutorial_1.png)](https://www.youtube.com/watch?v=FSZNu-mDdGE "QASCAD Tutorial 1")
+[![QANAD Tutorial 1](./pics/QANAD_tutorial_1.png)](https://www.youtube.com/watch?v=FSZNu-mDdGE "QANAD Tutorial 1")
 
-[![QASCAD Tutorial 1](./pics/QASCAD_tutorial_2.png)](https://www.youtube.com/watch?v=LlJRZk5iegQ "QASCAD Tutorial 2")
+[![QANAD Tutorial 1](./pics/QANAD_tutorial_2.png)](https://www.youtube.com/watch?v=LlJRZk5iegQ "QANAD Tutorial 2")
 
 # Structure of this repository
 ```
@@ -141,7 +141,7 @@ A tutorial (2 videos) below shows how to use QASCAD for verification.
         ├── org.eclipse.epsilon.ad2prism.tools
         ├── pal
         ├── presto_autonomous_fruit_picking
-        ├── QASCAD_demo
+        ├── QANAD_demo
         ├── six_dice
         ├── six_dice_parametric
         └── travel_web_ctmc
