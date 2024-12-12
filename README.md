@@ -99,7 +99,7 @@ A tutorial (2 videos) below shows how to use QANAD for verification.
 
 [![QANAD Tutorial 1](./pics/QANAD_tutorial_1.png)](https://www.youtube.com/watch?v=FSZNu-mDdGE "QANAD Tutorial 1")
 
-[![QANAD Tutorial 1](./pics/QANAD_tutorial_2.png)](https://www.youtube.com/watch?v=LlJRZk5iegQ "QANAD Tutorial 2")
+[![QANAD Tutorial 2](./pics/QANAD_tutorial_2.png)](https://www.youtube.com/watch?v=LlJRZk5iegQ "QANAD Tutorial 2")
 
 # Structure of this repository
 ```
