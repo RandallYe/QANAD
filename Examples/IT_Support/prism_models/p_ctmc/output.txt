@@ -2,10 +2,10 @@ PRISM
 =====
 
 Version: 4.8
-Date: Mon Jan 22 09:18:16 GMT 2024
-Hostname: COMPSCILAP134
+Date: Wed Apr 09 00:54:28 UTC 2025
+Hostname: ubuntu-server-macos
 Memory limits: cudd=1g, java(heap)=1g
-Command line: prism its.prism its.props -nossdetect -epsilon 1e-9 -nofixdl
+Command line: prism its.prism its.props -nofixdl -nossdetect -epsilon 1e-9
 
 Parsing model file "its.prism"...
 
@@ -28,9 +28,9 @@ Building model...
 
 Computing reachable states...
 
-Reachability (BFS): 9 iterations in 0.00 seconds (average 0.000111, setup 0.00)
+Reachability (BFS): 9 iterations in 0.00 seconds (average 0.000000, setup 0.00)
 
-Time for model construction: 0.059 seconds.
+Time for model construction: 0.021 seconds.
 
 Type:        CTMC
 States:      17 (1 initial)
@@ -42,7 +42,7 @@ CTL EU fixpoint: 1 iterations in 0.0 seconds
 
 Property satisfied in 1 of 1 initial states.
 
-Time for model checking: 0.007 seconds.
+Time for model checking: 0.002 seconds.
 
 Result: true
 
@@ -61,18 +61,18 @@ Creating vector for diagonals... [dist=10, compact] [0.1 KB]
 Allocating iteration vectors... [3 x 0.1 KB]
 TOTAL: [8.8 KB]
 
-Uniformisation: q.t = 1020.004080 x 100.000000 = 102000.408000
-Fox-Glynn: left = 101678, right = 102002
+Uniformisation: q.t = 102.000408 x 100.000000 = 10200.040800
+Fox-Glynn: left = 9389, right = 11202
 
 Starting iterations...
 
-Iterative method: 102002 iterations in 0.07 seconds (average 0.000000, setup 0.04)
+Iterative method: 11202 iterations in 0.00 seconds (average 0.000000, setup 0.00)
 
-Value in the initial state: 0.43901515549646414
+Value in the initial state: 0.43941794941926643
 
-Time for model checking: 0.087 seconds.
+Time for model checking: 0.007 seconds.
 
-Result: 0.43901515549646414
+Result: 0.43941794941926643
 
 ---------------------------------------------------------------------
 
@@ -89,15 +89,16 @@ Creating vector for diagonals... [dist=8, compact] [0.1 KB]
 Allocating iteration vectors... [3 x 0.1 KB]
 TOTAL: [8.1 KB]
 
-Uniformisation: q.t = 1020.004080 x 100.000000 = 102000.408000
-Fox-Glynn: left = 101678, right = 102002
+Uniformisation: q.t = 102.000408 x 100.000000 = 10200.040800
+Fox-Glynn: left = 9389, right = 11202
 
 Starting iterations...
 
-Iterative method: 102002 iterations in 0.09 seconds (average 0.000000, setup 0.06)
+Iterative method: 11202 iterations in 0.00 seconds (average 0.000000, setup 0.00)
 
-Value in the initial state: 0.4292575344087623
+Value in the initial state: 0.4296426432848847
 
-Time for model checking: 0.122 seconds.
+Time for model checking: 0.005 seconds.
 
-Result: 0.4292575344087623
+Result: 0.4296426432848847
+
