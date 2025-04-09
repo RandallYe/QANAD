@@ -418,15 +418,6 @@
         <updates>
           <probability xsi:type="prism:MultExpr">
             <left xsi:type="prism:VarExpr" name="default_rate"/>
-            <right xsi:type="prism:VarExpr" name="p_d_12"/>
-          </probability>
-          <assigns xsi:type="prism:Assignment" variable="PAL::I0::E1::pc">
-            <value xsi:type="prism:VarExpr" name="PAL::I0::E1::R1ToCorBThrDoor1"/>
-          </assigns>
-        </updates>
-        <updates>
-          <probability xsi:type="prism:MultExpr">
-            <left xsi:type="prism:VarExpr" name="default_rate"/>
             <right xsi:type="prism:MinusExpr">
               <left xsi:type="prism:DoubleLitExpr" value="1.0"/>
               <right xsi:type="prism:VarExpr" name="p_d_12"/>
@@ -434,6 +425,15 @@
           </probability>
           <assigns xsi:type="prism:Assignment" variable="PAL::I0::E1::pc">
             <value xsi:type="prism:VarExpr" name="PAL::I0::E1::R1ToCorBThrDoor2"/>
+          </assigns>
+        </updates>
+        <updates>
+          <probability xsi:type="prism:MultExpr">
+            <left xsi:type="prism:VarExpr" name="default_rate"/>
+            <right xsi:type="prism:VarExpr" name="p_d_12"/>
+          </probability>
+          <assigns xsi:type="prism:Assignment" variable="PAL::I0::E1::pc">
+            <value xsi:type="prism:VarExpr" name="PAL::I0::E1::R1ToCorBThrDoor1"/>
           </assigns>
         </updates>
       </commands>
@@ -526,15 +526,6 @@
         <updates>
           <probability xsi:type="prism:MultExpr">
             <left xsi:type="prism:VarExpr" name="default_rate"/>
-            <right xsi:type="prism:VarExpr" name="p_d_2"/>
-          </probability>
-          <assigns xsi:type="prism:Assignment" variable="PAL::I0::E1::pc">
-            <value xsi:type="prism:VarExpr" name="PAL::I0::E1::M2"/>
-          </assigns>
-        </updates>
-        <updates>
-          <probability xsi:type="prism:MultExpr">
-            <left xsi:type="prism:VarExpr" name="default_rate"/>
             <right xsi:type="prism:MinusExpr">
               <left xsi:type="prism:DoubleLitExpr" value="1.0"/>
               <right xsi:type="prism:VarExpr" name="p_d_2"/>
@@ -542,6 +533,15 @@
           </probability>
           <assigns xsi:type="prism:Assignment" variable="PAL::I0::E1::pc">
             <value xsi:type="prism:VarExpr" name="PAL::I0::E1::M1"/>
+          </assigns>
+        </updates>
+        <updates>
+          <probability xsi:type="prism:MultExpr">
+            <left xsi:type="prism:VarExpr" name="default_rate"/>
+            <right xsi:type="prism:VarExpr" name="p_d_2"/>
+          </probability>
+          <assigns xsi:type="prism:Assignment" variable="PAL::I0::E1::pc">
+            <value xsi:type="prism:VarExpr" name="PAL::I0::E1::M2"/>
           </assigns>
         </updates>
       </commands>
@@ -689,7 +689,7 @@
           </right>
         </grd>
         <updates>
-          <probability xsi:type="prism:VarExpr" name="default_rate"/>
+          <probability xsi:type="prism:DoubleLitExpr" value="1.0"/>
           <assigns xsi:type="prism:Assignment" variable="PAL::I0::E1::pc">
             <value xsi:type="prism:VarExpr" name="INACTIVE"/>
           </assigns>
@@ -756,7 +756,7 @@
           </right>
         </grd>
         <updates>
-          <probability xsi:type="prism:VarExpr" name="default_rate"/>
+          <probability xsi:type="prism:DoubleLitExpr" value="1.0"/>
           <assigns xsi:type="prism:Assignment" variable="PAL::F1::E25::pc">
             <value xsi:type="prism:VarExpr" name="PAL::F1::E25::R2ToCorC"/>
           </assigns>
@@ -922,7 +922,7 @@
         <action name="PAL::terminate"/>
         <grd xsi:type="prism:VarExpr" name="PAL::to_be_terminated"/>
         <updates>
-          <probability xsi:type="prism:VarExpr" name="default_rate"/>
+          <probability xsi:type="prism:DoubleLitExpr" value="1.0"/>
           <assigns xsi:type="prism:Assignment" variable="PAL::F1::E25::pc">
             <value xsi:type="prism:VarExpr" name="INACTIVE"/>
           </assigns>
@@ -1070,7 +1070,7 @@
   </prism:DivExpr>
   <prism:Action name="PAL::I0::E1::R1Stuck"/>
   <prism:AndBoolExpr/>
-  <prism:VarExpr name="default_rate"/>
+  <prism:DoubleLitExpr value="1.0"/>
   <prism:AndBoolExpr/>
   <prism:AndBoolExpr/>
   <prism:VarDecl/>

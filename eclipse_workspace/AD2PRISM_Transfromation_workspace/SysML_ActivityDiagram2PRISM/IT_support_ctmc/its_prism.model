@@ -228,10 +228,10 @@
         <updates>
           <probability xsi:type="prism:MultExpr">
             <left xsi:type="prism:VarExpr" name="default_rate"/>
-            <right xsi:type="prism:VarExpr" name="p13"/>
+            <right xsi:type="prism:VarExpr" name="p14"/>
           </probability>
           <assigns xsi:type="prism:Assignment" variable="IS::i0::E0::pc">
-            <value xsi:type="prism:VarExpr" name="IS::i0::E0::AddInfo"/>
+            <value xsi:type="prism:VarExpr" name="IS::i0::E0::Reallocate"/>
           </assigns>
         </updates>
         <updates>
@@ -246,19 +246,19 @@
         <updates>
           <probability xsi:type="prism:MultExpr">
             <left xsi:type="prism:VarExpr" name="default_rate"/>
-            <right xsi:type="prism:VarExpr" name="p14"/>
+            <right xsi:type="prism:VarExpr" name="p12"/>
           </probability>
           <assigns xsi:type="prism:Assignment" variable="IS::i0::E0::pc">
-            <value xsi:type="prism:VarExpr" name="IS::i0::E0::Reallocate"/>
+            <value xsi:type="prism:VarExpr" name="IS::i0::E0::SignOff"/>
           </assigns>
         </updates>
         <updates>
           <probability xsi:type="prism:MultExpr">
             <left xsi:type="prism:VarExpr" name="default_rate"/>
-            <right xsi:type="prism:VarExpr" name="p12"/>
+            <right xsi:type="prism:VarExpr" name="p13"/>
           </probability>
           <assigns xsi:type="prism:Assignment" variable="IS::i0::E0::pc">
-            <value xsi:type="prism:VarExpr" name="IS::i0::E0::SignOff"/>
+            <value xsi:type="prism:VarExpr" name="IS::i0::E0::AddInfo"/>
           </assigns>
         </updates>
       </commands>
@@ -348,19 +348,19 @@
         <updates>
           <probability xsi:type="prism:MultExpr">
             <left xsi:type="prism:VarExpr" name="default_rate"/>
-            <right xsi:type="prism:VarExpr" name="p27"/>
+            <right xsi:type="prism:VarExpr" name="p25"/>
           </probability>
           <assigns xsi:type="prism:Assignment" variable="IS::i0::E0::pc">
-            <value xsi:type="prism:VarExpr" name="IS::i0::E0::Complete"/>
+            <value xsi:type="prism:VarExpr" name="IS::i0::E0::Reopen"/>
           </assigns>
         </updates>
         <updates>
           <probability xsi:type="prism:MultExpr">
             <left xsi:type="prism:VarExpr" name="default_rate"/>
-            <right xsi:type="prism:VarExpr" name="p25"/>
+            <right xsi:type="prism:VarExpr" name="p27"/>
           </probability>
           <assigns xsi:type="prism:Assignment" variable="IS::i0::E0::pc">
-            <value xsi:type="prism:VarExpr" name="IS::i0::E0::Reopen"/>
+            <value xsi:type="prism:VarExpr" name="IS::i0::E0::Complete"/>
           </assigns>
         </updates>
       </commands>

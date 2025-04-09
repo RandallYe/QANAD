@@ -1,8 +1,8 @@
 Storm 1.8.1
 
-Date: Thu Feb  1 23:44:03 2024
+Date: Wed Apr  9 00:10:56 2025
 Command line arguments: --prism pal.prism --prop pal.props -pc -const 'p_c_a=0.989,p_d_12=0.5,p_d_1=0.96,p_d_2=0.96,p_c_c=0.995,p_c_b=0.989'
-Current working directory: /home/rye/QASCAD_demo/QASCAD/eclipse_workspace/AD2PRISM_Transfromation_workspace/SysML_ActivityDiagram2PRISM/pal
+Current working directory: /home/rye/QANAD_demo/QANAD/eclipse_workspace/AD2PRISM_Transfromation_workspace/SysML_ActivityDiagram2PRISM/pal
 
  WARN (Program.cpp:238): The input model is a CTMC, but uses probabilistic commands like they are used in PRISM. Consider rewriting the commands to use Markovian commands instead.
  WARN (Program.cpp:1586): The model uses synchronizing Markovian commands. This may lead to unexpected verification results, because of unclear semantics.
