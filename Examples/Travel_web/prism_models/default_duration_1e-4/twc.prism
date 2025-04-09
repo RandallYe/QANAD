@@ -7,7 +7,7 @@
 ctmc
 
 const int INACTIVE = (-1);
-const double mean_duration = (0.001);
+const double mean_duration = (1.0E-4);
 const int travel_web_i0_E0_i0 = (0);
 const int travel_web_i0_E0_FindTrainStation = (1);
 const int travel_web_i0_E0_D1 = (2);

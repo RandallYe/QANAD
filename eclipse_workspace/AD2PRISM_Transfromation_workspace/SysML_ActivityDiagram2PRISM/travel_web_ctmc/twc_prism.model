@@ -7,7 +7,7 @@
     </constants>
     <constants name="mean_duration">
       <type xsi:type="prism:DoubleType"/>
-      <value xsi:type="prism:DoubleLitExpr" value="1.0E-8"/>
+      <value xsi:type="prism:DoubleLitExpr" value="0.001"/>
     </constants>
     <constants name="travel_web::i0::E0::i0">
       <type xsi:type="prism:IntType"/>
@@ -162,15 +162,6 @@
         <updates>
           <probability xsi:type="prism:MultExpr">
             <left xsi:type="prism:VarExpr" name="default_rate"/>
-            <right xsi:type="prism:VarExpr" name="p1"/>
-          </probability>
-          <assigns xsi:type="prism:Assignment" variable="travel_web::i0::E0::pc">
-            <value xsi:type="prism:VarExpr" name="travel_web::i0::E0::ArrivalTime"/>
-          </assigns>
-        </updates>
-        <updates>
-          <probability xsi:type="prism:MultExpr">
-            <left xsi:type="prism:VarExpr" name="default_rate"/>
             <right xsi:type="prism:MinusExpr">
               <left xsi:type="prism:DoubleLitExpr" value="1.0"/>
               <right xsi:type="prism:VarExpr" name="p1"/>
@@ -178,6 +169,15 @@
           </probability>
           <assigns xsi:type="prism:Assignment" variable="travel_web::i0::E0::pc">
             <value xsi:type="prism:VarExpr" name="travel_web::i0::E0::M2"/>
+          </assigns>
+        </updates>
+        <updates>
+          <probability xsi:type="prism:MultExpr">
+            <left xsi:type="prism:VarExpr" name="default_rate"/>
+            <right xsi:type="prism:VarExpr" name="p1"/>
+          </probability>
+          <assigns xsi:type="prism:Assignment" variable="travel_web::i0::E0::pc">
+            <value xsi:type="prism:VarExpr" name="travel_web::i0::E0::ArrivalTime"/>
           </assigns>
         </updates>
       </commands>
@@ -327,6 +327,15 @@
         <updates>
           <probability xsi:type="prism:MultExpr">
             <left xsi:type="prism:VarExpr" name="default_rate"/>
+            <right xsi:type="prism:VarExpr" name="p2"/>
+          </probability>
+          <assigns xsi:type="prism:Assignment" variable="travel_web::i0::E0::pc">
+            <value xsi:type="prism:VarExpr" name="travel_web::i0::E0::M2"/>
+          </assigns>
+        </updates>
+        <updates>
+          <probability xsi:type="prism:MultExpr">
+            <left xsi:type="prism:VarExpr" name="default_rate"/>
             <right xsi:type="prism:MinusExpr">
               <left xsi:type="prism:DoubleLitExpr" value="1.0"/>
               <right xsi:type="prism:VarExpr" name="p2"/>
@@ -334,15 +343,6 @@
           </probability>
           <assigns xsi:type="prism:Assignment" variable="travel_web::i0::E0::pc">
             <value xsi:type="prism:VarExpr" name="travel_web::i0::E0::M1"/>
-          </assigns>
-        </updates>
-        <updates>
-          <probability xsi:type="prism:MultExpr">
-            <left xsi:type="prism:VarExpr" name="default_rate"/>
-            <right xsi:type="prism:VarExpr" name="p2"/>
-          </probability>
-          <assigns xsi:type="prism:Assignment" variable="travel_web::i0::E0::pc">
-            <value xsi:type="prism:VarExpr" name="travel_web::i0::E0::M2"/>
           </assigns>
         </updates>
       </commands>

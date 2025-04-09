@@ -2,7 +2,7 @@ PRISM
 =====
 
 Version: 4.8
-Date: Wed Apr 09 23:47:11 UTC 2025
+Date: Wed Apr 09 22:47:47 UTC 2025
 Hostname: ubuntu-server-macos
 Memory limits: cudd=1g, java(heap)=1g
 Command line: prism twc.prism twc.props -nofixdl -nossdetect -epsilon 1e-9
@@ -40,13 +40,13 @@ Computing reachable states...
 
 Reachability (BFS): 10 iterations in 0.00 seconds (average 0.000000, setup 0.00)
 
-Time for model construction: 0.009 seconds.
+Time for model construction: 0.016 seconds.
 
 Type:        CTMC
 States:      14 (1 initial)
 Transitions: 16
 
-Rate matrix: 128 nodes (12 terminal), 16 minterms, vars: 6r/6c
+Rate matrix: 131 nodes (13 terminal), 16 minterms, vars: 6r/6c
 
 CTL EU fixpoint: 1 iterations in 0.0 seconds
 
@@ -71,18 +71,19 @@ Creating vector for diagonals... [dist=8, compact] [0.1 KB]
 Allocating iteration vectors... [3 x 0.1 KB]
 TOTAL: [6.3 KB]
 
-Uniformisation: q.t = 1020.000000 x 1.000000 = 1020.000000
-Fox-Glynn: left = 762, right = 1338
+Uniformisation: q.t = 102000000.000000 x 1.000000 = 102000000.000000
+Fox-Glynn: left = 101919201, right = 102099982
 
 Starting iterations...
+Iteration 73700384 (of 102099982): 5.00 sec so far
 
-Iterative method: 1338 iterations in 0.00 seconds (average 0.000001, setup 0.00)
+Iterative method: 102099982 iterations in 6.98 seconds (average 0.000000, setup 0.00)
 
-Value in the initial state: 0.4123146614737572
+Value in the initial state: 0.4146950095517956
 
-Time for model checking: 0.002 seconds.
+Time for model checking: 1042.586 seconds.
 
-Result: 0.4123146614737572
+Result: 0.4146950095517956
 
 ---------------------------------------------------------------------
 
@@ -99,18 +100,20 @@ Creating vector for diagonals... [dist=8, compact] [0.1 KB]
 Allocating iteration vectors... [3 x 0.1 KB]
 TOTAL: [6.3 KB]
 
-Uniformisation: q.t = 1020.000000 x 2.000000 = 2040.000000
-Fox-Glynn: left = 1676, right = 2489
+Uniformisation: q.t = 102000000.000000 x 2.000000 = 204000000.000000
+Fox-Glynn: left = 203885734, right = 204141395
 
 Starting iterations...
+Iteration 71168700 (of 204141395): 5.00 sec so far
+Iteration 144179648 (of 204141395): 10.00 sec so far
 
-Iterative method: 2489 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+Iterative method: 204141395 iterations in 14.02 seconds (average 0.000000, setup 0.00)
 
-Value in the initial state: 0.7870035883038959
+Value in the initial state: 0.7880736328092536
 
-Time for model checking: 0.001 seconds.
+Time for model checking: 69.997 seconds.
 
-Result: 0.7870035883038959
+Result: 0.7880736328092536
 
 ---------------------------------------------------------------------
 
@@ -127,18 +130,22 @@ Creating vector for diagonals... [dist=8, compact] [0.1 KB]
 Allocating iteration vectors... [3 x 0.1 KB]
 TOTAL: [6.3 KB]
 
-Uniformisation: q.t = 1020.000000 x 3.000000 = 3060.000000
-Fox-Glynn: left = 2615, right = 3610
+Uniformisation: q.t = 102000000.000000 x 3.000000 = 306000000.000000
+Fox-Glynn: left = 305860054, right = 306173172
 
 Starting iterations...
+Iteration 77812150 (of 306173172): 5.00 sec so far
+Iteration 149148483 (of 306173172): 10.00 sec so far
+Iteration 221987323 (of 306173172): 15.00 sec so far
+Iteration 290260434 (of 306173172): 20.00 sec so far
 
-Iterative method: 3610 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+Iterative method: 306173172 iterations in 21.08 seconds (average 0.000000, setup 0.00)
 
-Value in the initial state: 0.9254541184833277
+Value in the initial state: 0.925856276735886
 
-Time for model checking: 0.001 seconds.
+Time for model checking: 105.365 seconds.
 
-Result: 0.9254541184833277
+Result: 0.925856276735886
 
 ---------------------------------------------------------------------
 
@@ -155,18 +162,23 @@ Creating vector for diagonals... [dist=8, compact] [0.1 KB]
 Allocating iteration vectors... [3 x 0.1 KB]
 TOTAL: [6.3 KB]
 
-Uniformisation: q.t = 1020.000000 x 4.000000 = 4080.000000
-Fox-Glynn: left = 3566, right = 4714
+Uniformisation: q.t = 102000000.000000 x 4.000000 = 408000000.000000
+Fox-Glynn: left = 407838405, right = 408199962
 
 Starting iterations...
+Iteration 74806045 (of 408199962): 5.00 sec so far
+Iteration 146104922 (of 408199962): 10.00 sec so far
+Iteration 218271193 (of 408199962): 15.00 sec so far
+Iteration 294044503 (of 408199962): 20.00 sec so far
+Iteration 369092582 (of 408199962): 25.00 sec so far
 
-Iterative method: 4714 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+Iterative method: 408199962 iterations in 27.68 seconds (average 0.000000, setup 0.00)
 
-Value in the initial state: 0.9733611227128246
+Value in the initial state: 0.9735117471426892
 
-Time for model checking: 0.002 seconds.
+Time for model checking: 140.569 seconds.
 
-Result: 0.9733611227128246
+Result: 0.9735117471426892
 
 ---------------------------------------------------------------------
 
@@ -183,18 +195,19 @@ Creating vector for diagonals... [dist=7, compact] [0.1 KB]
 Allocating iteration vectors... [3 x 0.1 KB]
 TOTAL: [5.9 KB]
 
-Uniformisation: q.t = 1020.000000 x 1.000000 = 1020.000000
-Fox-Glynn: left = 762, right = 1338
+Uniformisation: q.t = 102000000.000000 x 1.000000 = 102000000.000000
+Fox-Glynn: left = 101919201, right = 102099982
 
 Starting iterations...
+Iteration 74073025 (of 102099982): 5.00 sec so far
 
-Iterative method: 1338 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+Iterative method: 102099982 iterations in 6.95 seconds (average 0.000000, setup 0.00)
 
-Value in the initial state: 0.3599300345298598
+Value in the initial state: 0.3625256479823398
 
-Time for model checking: 0.001 seconds.
+Time for model checking: 35.077 seconds.
 
-Result: 0.3599300345298598
+Result: 0.3625256479823398
 
 ---------------------------------------------------------------------
 
@@ -211,18 +224,20 @@ Creating vector for diagonals... [dist=7, compact] [0.1 KB]
 Allocating iteration vectors... [3 x 0.1 KB]
 TOTAL: [5.9 KB]
 
-Uniformisation: q.t = 1020.000000 x 2.000000 = 2040.000000
-Fox-Glynn: left = 1676, right = 2489
+Uniformisation: q.t = 102000000.000000 x 2.000000 = 204000000.000000
+Fox-Glynn: left = 203885734, right = 204141395
 
 Starting iterations...
+Iteration 70010776 (of 204141395): 5.00 sec so far
+Iteration 143745002 (of 204141395): 10.00 sec so far
 
-Iterative method: 2489 iterations in 0.00 seconds (average 0.000001, setup 0.00)
+Iterative method: 204141395 iterations in 13.98 seconds (average 0.000000, setup 0.00)
 
-Value in the initial state: 0.7386563018313962
+Value in the initial state: 0.7399714840611407
 
-Time for model checking: 0.001 seconds.
+Time for model checking: 69.711 seconds.
 
-Result: 0.7386563018313962
+Result: 0.7399714840611407
 
 ---------------------------------------------------------------------
 
@@ -239,18 +254,22 @@ Creating vector for diagonals... [dist=7, compact] [0.1 KB]
 Allocating iteration vectors... [3 x 0.1 KB]
 TOTAL: [5.9 KB]
 
-Uniformisation: q.t = 1020.000000 x 3.000000 = 3060.000000
-Fox-Glynn: left = 2615, right = 3610
+Uniformisation: q.t = 102000000.000000 x 3.000000 = 306000000.000000
+Fox-Glynn: left = 305860054, right = 306173172
 
 Starting iterations...
+Iteration 75269459 (of 306173172): 5.00 sec so far
+Iteration 151327108 (of 306173172): 10.00 sec so far
+Iteration 225964628 (of 306173172): 15.00 sec so far
+Iteration 302165849 (of 306173172): 20.00 sec so far
 
-Iterative method: 3610 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+Iterative method: 306173172 iterations in 20.26 seconds (average 0.000000, setup 0.00)
 
-Value in the initial state: 0.9011975853921822
+Value in the initial state: 0.9017314712817569
 
-Time for model checking: 0.002 seconds.
+Time for model checking: 104.468 seconds.
 
-Result: 0.9011975853921822
+Result: 0.9017314712817569
 
 ---------------------------------------------------------------------
 
@@ -267,18 +286,23 @@ Creating vector for diagonals... [dist=7, compact] [0.1 KB]
 Allocating iteration vectors... [3 x 0.1 KB]
 TOTAL: [5.9 KB]
 
-Uniformisation: q.t = 1020.000000 x 4.000000 = 4080.000000
-Fox-Glynn: left = 3566, right = 4714
+Uniformisation: q.t = 102000000.000000 x 4.000000 = 408000000.000000
+Fox-Glynn: left = 407838405, right = 408199962
 
 Starting iterations...
+Iteration 71101208 (of 408199962): 5.00 sec so far
+Iteration 143804304 (of 408199962): 10.00 sec so far
+Iteration 218133425 (of 408199962): 15.00 sec so far
+Iteration 291591627 (of 408199962): 20.00 sec so far
+Iteration 365215071 (of 408199962): 25.00 sec so far
 
-Iterative method: 4714 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+Iterative method: 408199962 iterations in 27.96 seconds (average 0.000000, setup 0.00)
 
-Value in the initial state: 0.963230309265723
+Value in the initial state: 0.9634385254754906
 
-Time for model checking: 0.001 seconds.
+Time for model checking: 138.656 seconds.
 
-Result: 0.963230309265723
+Result: 0.9634385254754906
 
 ---------------------------------------------------------------------
 
@@ -295,12 +319,13 @@ Creating vector for diagonals... [dist=8, compact] [0.1 KB]
 Allocating iteration vectors... [3 x 0.1 KB]
 TOTAL: [6.3 KB]
 
-Uniformisation: q.t = 1020.000000 x 1.000000 = 1020.000000
-Fox-Glynn: left = 762, right = 1338
+Uniformisation: q.t = 102000000.000000 x 1.000000 = 102000000.000000
+Fox-Glynn: left = 101919201, right = 102099982
 
 Starting iterations...
+Iteration 72548802 (of 102099982): 5.00 sec so far
 
-Iterative method: 1338 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+Iterative method: 102099982 iterations in 7.02 seconds (average 0.000000, setup 0.00)
 
 Computing probabilities...
 Engine: Hybrid
@@ -313,18 +338,22 @@ Creating vector for diagonals... [dist=8, compact] [0.1 KB]
 Allocating iteration vectors... [3 x 0.1 KB]
 TOTAL: [6.3 KB]
 
-Uniformisation: q.t = 1020.000000 x 3.000000 = 3060.000000
-Fox-Glynn: left = 2615, right = 3610
+Uniformisation: q.t = 102000000.000000 x 3.000000 = 306000000.000000
+Fox-Glynn: left = 305860054, right = 306173172
 
 Starting iterations...
+Iteration 76563659 (of 306173172): 5.00 sec so far
+Iteration 150239067 (of 306173172): 10.00 sec so far
+Iteration 221427615 (of 306173172): 15.00 sec so far
+Iteration 291885708 (of 306173172): 20.00 sec so far
 
-Iterative method: 3610 iterations in 0.00 seconds (average 0.000001, setup 0.00)
+Iterative method: 306173172 iterations in 21.08 seconds (average 0.000000, setup 0.00)
 
-Value in the initial state: 0.26322289844041263
+Value in the initial state: 0.2664075630235676
 
-Time for model checking: 0.009 seconds.
+Time for model checking: 137.777 seconds.
 
-Result: 0.26322289844041263
+Result: 0.2664075630235676
 
 ---------------------------------------------------------------------
 
@@ -341,12 +370,14 @@ Creating vector for diagonals... [dist=8, compact] [0.1 KB]
 Allocating iteration vectors... [3 x 0.1 KB]
 TOTAL: [6.3 KB]
 
-Uniformisation: q.t = 1020.000000 x 2.000000 = 2040.000000
-Fox-Glynn: left = 1676, right = 2489
+Uniformisation: q.t = 102000000.000000 x 2.000000 = 204000000.000000
+Fox-Glynn: left = 203885734, right = 204141395
 
 Starting iterations...
+Iteration 71878405 (of 204141395): 5.00 sec so far
+Iteration 146400091 (of 204141395): 10.00 sec so far
 
-Iterative method: 2489 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+Iterative method: 204141395 iterations in 13.94 seconds (average 0.000000, setup 0.00)
 
 Computing probabilities...
 Engine: Hybrid
@@ -359,18 +390,22 @@ Creating vector for diagonals... [dist=8, compact] [0.1 KB]
 Allocating iteration vectors... [3 x 0.1 KB]
 TOTAL: [6.3 KB]
 
-Uniformisation: q.t = 1020.000000 x 3.000000 = 3060.000000
-Fox-Glynn: left = 2615, right = 3610
+Uniformisation: q.t = 102000000.000000 x 3.000000 = 306000000.000000
+Fox-Glynn: left = 305860054, right = 306173172
 
 Starting iterations...
+Iteration 69241718 (of 306173172): 5.00 sec so far
+Iteration 139430535 (of 306173172): 10.00 sec so far
+Iteration 210878013 (of 306173172): 15.00 sec so far
+Iteration 283928668 (of 306173172): 20.00 sec so far
 
-Iterative method: 3610 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+Iterative method: 306173172 iterations in 21.56 seconds (average 0.000000, setup 0.00)
 
-Value in the initial state: 0.6379118252705513
+Value in the initial state: 0.6397861862810256
 
-Time for model checking: 0.003 seconds.
+Time for model checking: 175.961 seconds.
 
-Result: 0.6379118252705513
+Result: 0.6397861862810256
 
 ---------------------------------------------------------------------
 
@@ -387,12 +422,16 @@ Creating vector for diagonals... [dist=8, compact] [0.1 KB]
 Allocating iteration vectors... [3 x 0.1 KB]
 TOTAL: [6.3 KB]
 
-Uniformisation: q.t = 1020.000000 x 3.000000 = 3060.000000
-Fox-Glynn: left = 2615, right = 3610
+Uniformisation: q.t = 102000000.000000 x 3.000000 = 306000000.000000
+Fox-Glynn: left = 305860054, right = 306173172
 
 Starting iterations...
+Iteration 72224851 (of 306173172): 5.00 sec so far
+Iteration 145276634 (of 306173172): 10.00 sec so far
+Iteration 216284135 (of 306173172): 15.00 sec so far
+Iteration 287723074 (of 306173172): 20.00 sec so far
 
-Iterative method: 3610 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+Iterative method: 306173172 iterations in 21.30 seconds (average 0.000000, setup 0.00)
 
 Computing probabilities...
 Engine: Hybrid
@@ -405,18 +444,22 @@ Creating vector for diagonals... [dist=8, compact] [0.1 KB]
 Allocating iteration vectors... [3 x 0.1 KB]
 TOTAL: [6.3 KB]
 
-Uniformisation: q.t = 1020.000000 x 3.000000 = 3060.000000
-Fox-Glynn: left = 2615, right = 3610
+Uniformisation: q.t = 102000000.000000 x 3.000000 = 306000000.000000
+Fox-Glynn: left = 305860054, right = 306173172
 
 Starting iterations...
+Iteration 73556249 (of 306173172): 5.00 sec so far
+Iteration 148267074 (of 306173172): 10.00 sec so far
+Iteration 224180304 (of 306173172): 15.00 sec so far
+Iteration 298034112 (of 306173172): 20.00 sec so far
 
-Iterative method: 3610 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+Iterative method: 306173172 iterations in 20.56 seconds (average 0.000000, setup 0.00)
 
-Value in the initial state: 0.7763623554499831
+Value in the initial state: 0.777568830207658
 
-Time for model checking: 0.003 seconds.
+Time for model checking: 206.209 seconds.
 
-Result: 0.7763623554499831
+Result: 0.777568830207658
 
 ---------------------------------------------------------------------
 
@@ -433,12 +476,17 @@ Creating vector for diagonals... [dist=8, compact] [0.1 KB]
 Allocating iteration vectors... [3 x 0.1 KB]
 TOTAL: [6.3 KB]
 
-Uniformisation: q.t = 1020.000000 x 4.000000 = 4080.000000
-Fox-Glynn: left = 3566, right = 4714
+Uniformisation: q.t = 102000000.000000 x 4.000000 = 408000000.000000
+Fox-Glynn: left = 407838405, right = 408199962
 
 Starting iterations...
+Iteration 72267214 (of 408199962): 5.00 sec so far
+Iteration 145763271 (of 408199962): 10.00 sec so far
+Iteration 221013549 (of 408199962): 15.00 sec so far
+Iteration 294013218 (of 408199962): 20.00 sec so far
+Iteration 367860095 (of 408199962): 25.00 sec so far
 
-Iterative method: 4714 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+Iterative method: 408199962 iterations in 27.84 seconds (average 0.000000, setup 0.00)
 
 Computing probabilities...
 Engine: Hybrid
@@ -451,16 +499,20 @@ Creating vector for diagonals... [dist=8, compact] [0.1 KB]
 Allocating iteration vectors... [3 x 0.1 KB]
 TOTAL: [6.3 KB]
 
-Uniformisation: q.t = 1020.000000 x 3.000000 = 3060.000000
-Fox-Glynn: left = 2615, right = 3610
+Uniformisation: q.t = 102000000.000000 x 3.000000 = 306000000.000000
+Fox-Glynn: left = 305860054, right = 306173172
 
 Starting iterations...
+Iteration 71977503 (of 306173172): 5.00 sec so far
+Iteration 144194631 (of 306173172): 10.00 sec so far
+Iteration 217893152 (of 306173172): 15.00 sec so far
+Iteration 290890234 (of 306173172): 20.00 sec so far
 
-Iterative method: 3610 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+Iterative method: 306173172 iterations in 20.96 seconds (average 0.000000, setup 0.00)
 
-Value in the initial state: 0.82426935967948
+Value in the initial state: 0.8252243006144612
 
-Time for model checking: 0.003 seconds.
+Time for model checking: 244.483 seconds.
 
-Result: 0.82426935967948
+Result: 0.8252243006144612
 
