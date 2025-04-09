@@ -1,3 +1,14 @@
+/**
+ * Changes:
+ *	- 202504: the rates in CTMCs for nodes other than actions should be all the same: a default rate. This rate is not 
+ *		each command in a synchronisation. It should be for an active command only and all passive commands in a synchronisation 
+ *		should have rate 1.
+ * 		See https://www.prismmodelchecker.org/manual/ThePRISMLanguage/Synchronisation.
+ *	  For ForkNode, the command for the first outgoing edge has default_rate and other commands has rate 1.
+ *    For JoinNode, the command for the outgoing edge has default_rate and others commands has rate 1.
+ *    For MergeNode, if a new module is needed, then all the commands for the incoming edges have default_rate and all the commands in the new module are rate 1.
+ *    For ActivityFinal, the command in the main module has default_rate and other commands in other modules has rate 1.
+ */
 import "utils.eol";
 import "prism.eol";
 import "ad.eol";
@@ -611,7 +622,7 @@ each modSeq sequence corresponding to a module
 
                     var updates = Set{};
                     if(isCTMC){
-                        var rate = mkVarExpr(default_rate.name);
+                        var rate = mkDoubleLitExpr(1.0);//mkVarExpr(default_rate.name);  
                         updates.add(mkProbUpdate(clone(rate), mod.vars.at(0), INACTIVE));
                     } else{
                         updates.add(mkUpdate(mod.vars.at(0), INACTIVE));
@@ -880,7 +891,7 @@ each modSeq sequence corresponding to a module
                 grd = mkVarExpr(toBeTerminated.name);
                 var updates = Set{};
                 if(isCTMC){
-                    var rate = mkVarExpr(default_rate.name);
+                    var rate = mkDoubleLitExpr(1.0);//mkVarExpr(default_rate.name);  
                     updates.add(mkProbUpdate(rate, mod.vars.at(0), INACTIVE,  mod_toBeTerminated, false));
                 } else{
                     updates.add(mkUpdate(mod.vars.at(0), INACTIVE,  mod_toBeTerminated, false));
@@ -1285,7 +1296,7 @@ operation traverseNodes(
                             toBeTerminatedIsUpdated = true;
                         } 
                         if(isCTMC){
-                            var rate = mkVarExpr(default_rate.name);
+                            var rate = mkDoubleLitExpr(1.0);//mkVarExpr(default_rate.name);                       
                             updates.add(mkProbUpdate(rate, pc, const_nxt, mod_toBeTerminated, true)); 
                         } else{
                             updates.add(mkUpdate(pc, const_nxt, mod_toBeTerminated, true)); 
@@ -1295,7 +1306,7 @@ operation traverseNodes(
 
                     } else {
                         if(isCTMC){
-                            var rate = mkVarExpr(default_rate.name);
+                            var rate = mkDoubleLitExpr(1.0);//mkVarExpr(default_rate.name);
                             updates.add(mkProbUpdate(rate, pc, const_nxt));
                         } else{
                             updates.add(mkUpdate(pc, const_nxt));
@@ -1453,7 +1464,7 @@ operation traverseNodes(
                             toBeTerminatedIsUpdated = true;
                         } 
                         if(isCTMC){
-                            var rate = mkVarExpr(default_rate.name);
+                            var rate = mkDoubleLitExpr(1.0);//mkVarExpr(default_rate.name);
                             updates.add(mkProbUpdate(rate, pc, const_nxt, mod_toBeTerminated, true)); 
                         } else{
                             updates.add(mkUpdate(pc, const_nxt, mod_toBeTerminated, true)); 
@@ -1463,7 +1474,7 @@ operation traverseNodes(
 
                     } else {
                         if(isCTMC){
-                            var rate = mkVarExpr(default_rate.name);
+                            var rate = mkDoubleLitExpr(1.0);//mkVarExpr(default_rate.name);
                             updates.add(mkProbUpdate(rate, pc, const_nxt));	
                         } else{
                             updates.add(mkUpdate(pc, const_nxt));	
@@ -1552,7 +1563,7 @@ operation traverseNodes(
                                 toBeTerminatedIsUpdated = true;
                             } 
                             if(isCTMC){
-                                var rate = mkVarExpr(default_rate.name);
+                            	var rate = mkDoubleLitExpr(1.0);//mkVarExpr(default_rate.name);
                                 updates.add(mkProbUpdate(rate, pc, const_nxt, mod_toBeTerminated, true)); 
                             } else{
                                 updates.add(mkUpdate(pc, const_nxt, mod_toBeTerminated, true)); 
@@ -1562,7 +1573,7 @@ operation traverseNodes(
 
                         } else {
                             if(isCTMC){
-                                var rate = mkVarExpr(default_rate.name);
+                            	var rate = mkDoubleLitExpr(1.0);//mkVarExpr(default_rate.name);
                                 updates.add(mkProbUpdate(rate, pc, const_nxt));	
                             } else {
                                 updates.add(mkUpdate(pc, const_nxt));	
@@ -1637,7 +1648,7 @@ operation traverseNodes(
                                     toBeTerminatedIsUpdated = true;
                                 } 
                                 if(isCTMC){
-                                    var rate = mkVarExpr(default_rate.name);
+                            		var rate = mkDoubleLitExpr(1.0);//mkVarExpr(default_rate.name);
                                     updates.add(mkProbUpdate(rate, pc, const_nxt, mod_toBeTerminated, true)); 
                                 }else {
                                     updates.add(mkUpdate(pc, const_nxt, mod_toBeTerminated, true)); 
@@ -1646,7 +1657,7 @@ operation traverseNodes(
                                 delete mod_toBeTerminated;
                             } else {
                                 if(isCTMC){
-                                    var rate = mkVarExpr(default_rate.name);
+                            		var rate = mkDoubleLitExpr(1.0);//mkVarExpr(default_rate.name);
                                     updates.add(mkProbUpdate(rate, pc, const_nxt));	
                                 } else{
                                     updates.add(mkUpdate(pc, const_nxt));	

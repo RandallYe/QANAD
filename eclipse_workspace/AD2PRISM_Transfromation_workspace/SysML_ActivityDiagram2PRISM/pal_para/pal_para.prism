@@ -96,7 +96,7 @@ module PAL_I0_E1
 
     [PAL_I0_E1_M3] ((PAL_I0_E1_pc=PAL_I0_E1_M3))&(! (PAL_to_be_terminated)) -> default_rate:(PAL_I0_E1_pc'=PAL_I0_E1_R1Stuck);
 
-    [PAL_I0_E1_D2] ((PAL_I0_E1_pc=PAL_I0_E1_D2))&(! (PAL_to_be_terminated)) -> (default_rate*p_d_12):(PAL_I0_E1_pc'=PAL_I0_E1_R1ToCorBThrDoor1) + (default_rate*((1.0)-p_d_12)):(PAL_I0_E1_pc'=PAL_I0_E1_R1ToCorBThrDoor2);
+    [PAL_I0_E1_D2] ((PAL_I0_E1_pc=PAL_I0_E1_D2))&(! (PAL_to_be_terminated)) -> (default_rate*((1.0)-p_d_12)):(PAL_I0_E1_pc'=PAL_I0_E1_R1ToCorBThrDoor2) + (default_rate*p_d_12):(PAL_I0_E1_pc'=PAL_I0_E1_R1ToCorBThrDoor1);
 
     [PAL_I0_E1_R1ToCorBThrDoor1] ((PAL_I0_E1_pc=PAL_I0_E1_R1ToCorBThrDoor1))&(! (PAL_to_be_terminated)) -> ((1.0)/d_cor_b_d1):(PAL_I0_E1_pc'=PAL_I0_E1_D3);
 
@@ -104,7 +104,7 @@ module PAL_I0_E1
 
     [PAL_I0_E1_D3] ((PAL_I0_E1_pc=PAL_I0_E1_D3))&(! (PAL_to_be_terminated)) -> (default_rate*((1.0)-p_d_1)):(PAL_I0_E1_pc'=PAL_I0_E1_M1) + (default_rate*p_d_1):(PAL_I0_E1_pc'=PAL_I0_E1_M2);
 
-    [PAL_I0_E1_D4] ((PAL_I0_E1_pc=PAL_I0_E1_D4))&(! (PAL_to_be_terminated)) -> (default_rate*p_d_2):(PAL_I0_E1_pc'=PAL_I0_E1_M2) + (default_rate*((1.0)-p_d_2)):(PAL_I0_E1_pc'=PAL_I0_E1_M1);
+    [PAL_I0_E1_D4] ((PAL_I0_E1_pc=PAL_I0_E1_D4))&(! (PAL_to_be_terminated)) -> (default_rate*((1.0)-p_d_2)):(PAL_I0_E1_pc'=PAL_I0_E1_M1) + (default_rate*p_d_2):(PAL_I0_E1_pc'=PAL_I0_E1_M2);
 
     [PAL_I0_E1_M2] ((PAL_I0_E1_pc=PAL_I0_E1_M2))&(! (PAL_to_be_terminated)) -> default_rate:(PAL_I0_E1_pc'=PAL_I0_E1_R1ToRoomD);
 
@@ -118,7 +118,7 @@ module PAL_I0_E1
 
     [PAL_I0_E1_R1Stuck] ((PAL_I0_E1_pc=PAL_I0_E1_R1Stuck))&(! (PAL_to_be_terminated)) -> ((1.0)/d_r1_stuck):(PAL_I0_E1_pc'=PAL_I0_E1_M4);
 
-    [PAL_J1] ((PAL_I0_E1_pc=PAL_I0_E1_J1))&(! (PAL_to_be_terminated)) -> default_rate:(PAL_I0_E1_pc'=INACTIVE);
+    [PAL_J1] ((PAL_I0_E1_pc=PAL_I0_E1_J1))&(! (PAL_to_be_terminated)) -> (PAL_I0_E1_pc'=INACTIVE);
 
     [PAL_terminate] (PAL_to_be_terminated)&(! (PAL_terminated)) -> default_rate:(PAL_I0_E1_pc'=INACTIVE)&(PAL_terminated'=true)&(PAL_I0_E1_to_be_terminated'=false);
 
@@ -130,7 +130,7 @@ module PAL_F1_E25
     PAL_F1_E25_pc : [-1..7] init INACTIVE;
     PAL_F1_E25_to_be_terminated : bool init false;
 
-    [PAL_F1] ((PAL_F1_E25_pc=INACTIVE))&(! (PAL_to_be_terminated)) -> default_rate:(PAL_F1_E25_pc'=PAL_F1_E25_R2ToCorC);
+    [PAL_F1] ((PAL_F1_E25_pc=INACTIVE))&(! (PAL_to_be_terminated)) -> (PAL_F1_E25_pc'=PAL_F1_E25_R2ToCorC);
 
     [PAL_F1_E25_R2ToCorC] ((PAL_F1_E25_pc=PAL_F1_E25_R2ToCorC))&(! (PAL_to_be_terminated)) -> ((1.0)/d_cor_c):(PAL_F1_E25_pc'=PAL_F1_E25_R2ToDoorCD);
 
@@ -146,7 +146,7 @@ module PAL_F1_E25
 
     [PAL_J1] ((PAL_F1_E25_pc=PAL_F1_E25_J1))&(! (PAL_to_be_terminated)) -> default_rate:(PAL_F1_E25_pc'=PAL_F1_E25_AF)&(PAL_F1_E25_to_be_terminated'=true);
 
-    [PAL_terminate] PAL_to_be_terminated -> default_rate:(PAL_F1_E25_pc'=INACTIVE)&(PAL_F1_E25_to_be_terminated'=false);
+    [PAL_terminate] PAL_to_be_terminated -> (PAL_F1_E25_pc'=INACTIVE)&(PAL_F1_E25_to_be_terminated'=false);
 
 endmodule
 

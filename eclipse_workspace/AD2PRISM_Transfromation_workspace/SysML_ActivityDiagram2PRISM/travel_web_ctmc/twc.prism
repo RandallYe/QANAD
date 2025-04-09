@@ -49,7 +49,7 @@ module travel_web_i0_E0
 
     [travel_web_i0_E0_FindTrainStation] ((travel_web_i0_E0_pc=travel_web_i0_E0_FindTrainStation))&(! (travel_web_to_be_terminated)) -> ((1.0)/((1.0)/lambda1)):(travel_web_i0_E0_pc'=travel_web_i0_E0_D1);
 
-    [travel_web_i0_E0_D1] ((travel_web_i0_E0_pc=travel_web_i0_E0_D1))&(! (travel_web_to_be_terminated)) -> (default_rate*((1.0)-p1)):(travel_web_i0_E0_pc'=travel_web_i0_E0_M2) + (default_rate*p1):(travel_web_i0_E0_pc'=travel_web_i0_E0_ArrivalTime);
+    [travel_web_i0_E0_D1] ((travel_web_i0_E0_pc=travel_web_i0_E0_D1))&(! (travel_web_to_be_terminated)) -> (default_rate*p1):(travel_web_i0_E0_pc'=travel_web_i0_E0_ArrivalTime) + (default_rate*((1.0)-p1)):(travel_web_i0_E0_pc'=travel_web_i0_E0_M2);
 
     [travel_web_i0_E0_ArrivalTime] ((travel_web_i0_E0_pc=travel_web_i0_E0_ArrivalTime))&(! (travel_web_to_be_terminated)) -> ((1.0)/((1.0)/lambda2)):(travel_web_i0_E0_pc'=travel_web_i0_E0_SearchRestaurant);
 
@@ -63,7 +63,7 @@ module travel_web_i0_E0
 
     [travel_web_i0_E0_WeatherForecast] ((travel_web_i0_E0_pc=travel_web_i0_E0_WeatherForecast))&(! (travel_web_to_be_terminated)) -> ((1.0)/((1.0)/lambda5)):(travel_web_i0_E0_pc'=travel_web_i0_E0_D2);
 
-    [travel_web_i0_E0_D2] ((travel_web_i0_E0_pc=travel_web_i0_E0_D2))&(! (travel_web_to_be_terminated)) -> (default_rate*p2):(travel_web_i0_E0_pc'=travel_web_i0_E0_M2) + (default_rate*((1.0)-p2)):(travel_web_i0_E0_pc'=travel_web_i0_E0_M1);
+    [travel_web_i0_E0_D2] ((travel_web_i0_E0_pc=travel_web_i0_E0_D2))&(! (travel_web_to_be_terminated)) -> (default_rate*((1.0)-p2)):(travel_web_i0_E0_pc'=travel_web_i0_E0_M1) + (default_rate*p2):(travel_web_i0_E0_pc'=travel_web_i0_E0_M2);
 
     [travel_web_i0_E0_RouteReport] ((travel_web_i0_E0_pc=travel_web_i0_E0_RouteReport))&(! (travel_web_to_be_terminated)) -> ((1.0)/((1.0)/lambda6)):(travel_web_i0_E0_pc'=travel_web_i0_E0_ReportToUser);
 
