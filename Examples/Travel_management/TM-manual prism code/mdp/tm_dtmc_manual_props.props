@@ -1,0 +1,18 @@
+!E [ F "deadlock" ]
+
+Pmax=? [ F AF=true ]
+
+filter(max, Pmin=? [ F AF&!fail ], i0)
+
+filter(max, Pmax=? [ F AF&!fail ], checkSchedule)
+
+filter(min, Pmin=? [ F AF&!fail ], checkSchedule)
+
+filter(max, Pmax=? [ F AF&!fail ], requestMeeting)
+
+filter(max, Pmin=? [ F AF&!fail ], requestMeeting)
+
+filter(max, Pmax=? [ F AF&!fail ], makeCall)
+
+filter(min, Pmin=? [ F AF&!fail ], M1)
+

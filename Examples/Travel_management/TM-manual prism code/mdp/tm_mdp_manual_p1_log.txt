@@ -1,0 +1,330 @@
+
+Maximum value over states satisfying filter: 0.93196451292669
+
+There are 1 states with (approximately) this value:
+13:(false,false,false,false,false,false,false,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.043 seconds.
+
+Result: 0.93196451292669
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], makeCall)
+
+Prob0A: 18 iterations in 0.00 seconds (average 0.000056, setup 0.00)
+
+Prob1E: 11 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrices... [nm=2, levels=22, nodes=787] [36.9 KB]
+Adding sparse bits... [levels=22-22, num=2, compact=2/2] [0.4 KB]
+Creating vector for yes... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [38.1 KB]
+
+Starting iterations...
+
+Iterative method: 113 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter makeCall: 3
+
+Maximum value over states satisfying filter: 0.93196451292669
+
+There are 1 states with (approximately) this value:
+13:(false,false,false,false,false,false,false,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.001 seconds.
+
+Result: 0.93196451292669
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], makeCall)
+
+Prob0A: 18 iterations in 0.00 seconds (average 0.000056, setup 0.00)
+
+Prob1E: 11 iterations in 0.00 seconds (average 0.000091, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrices... [nm=2, levels=22, nodes=787] [36.9 KB]
+Adding sparse bits... [levels=22-22, num=2, compact=2/2] [0.4 KB]
+Creating vector for yes... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [38.1 KB]
+
+Starting iterations...
+
+Iterative method: 113 iterations in 0.00 seconds (average 0.000009, setup 0.00)
+
+States satisfying filter makeCall: 3
+
+Maximum value over states satisfying filter: 0.93196451292669
+
+There are 1 states with (approximately) this value:
+13:(false,false,false,false,false,false,false,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.003 seconds.
+
+Result: 0.93196451292669
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], makeCall)
+
+Prob0A: 18 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+Prob1E: 11 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrices... [nm=2, levels=22, nodes=787] [36.9 KB]
+Adding sparse bits... [levels=22-22, num=2, compact=2/2] [0.4 KB]
+Creating vector for yes... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [38.1 KB]
+
+Starting iterations...
+
+Iterative method: 113 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter makeCall: 3
+
+Maximum value over states satisfying filter: 0.93196451292669
+
+There are 1 states with (approximately) this value:
+13:(false,false,false,false,false,false,false,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.002 seconds.
+
+Result: 0.93196451292669
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], makeCall)
+
+Prob0A: 18 iterations in 0.00 seconds (average 0.000056, setup 0.00)
+
+Prob1E: 11 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrices... [nm=2, levels=22, nodes=787] [36.9 KB]
+Adding sparse bits... [levels=22-22, num=2, compact=2/2] [0.4 KB]
+Creating vector for yes... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [38.1 KB]
+
+Starting iterations...
+
+Iterative method: 113 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter makeCall: 3
+
+Maximum value over states satisfying filter: 0.93196451292669
+
+There are 1 states with (approximately) this value:
+13:(false,false,false,false,false,false,false,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.003 seconds.
+
+Result: 0.93196451292669
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], makeCall)
+
+Prob0A: 18 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+Prob1E: 11 iterations in 0.00 seconds (average 0.000091, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrices... [nm=2, levels=22, nodes=787] [36.9 KB]
+Adding sparse bits... [levels=22-22, num=2, compact=2/2] [0.4 KB]
+Creating vector for yes... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [38.1 KB]
+
+Starting iterations...
+
+Iterative method: 113 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter makeCall: 3
+
+Maximum value over states satisfying filter: 0.93196451292669
+
+There are 1 states with (approximately) this value:
+13:(false,false,false,false,false,false,false,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.002 seconds.
+
+Result: 0.93196451292669
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], makeCall)
+
+Prob0A: 18 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+Prob1E: 11 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrices... [nm=2, levels=22, nodes=787] [36.9 KB]
+Adding sparse bits... [levels=22-22, num=2, compact=2/2] [0.4 KB]
+Creating vector for yes... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [38.1 KB]
+
+Starting iterations...
+
+Iterative method: 113 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter makeCall: 3
+
+Maximum value over states satisfying filter: 0.93196451292669
+
+There are 1 states with (approximately) this value:
+13:(false,false,false,false,false,false,false,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.002 seconds.
+
+Result: 0.93196451292669
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], makeCall)
+
+Prob0A: 18 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+Prob1E: 11 iterations in 0.00 seconds (average 0.000091, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrices... [nm=2, levels=22, nodes=787] [36.9 KB]
+Adding sparse bits... [levels=22-22, num=2, compact=2/2] [0.4 KB]
+Creating vector for yes... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [38.1 KB]
+
+Starting iterations...
+
+Iterative method: 113 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter makeCall: 3
+
+Maximum value over states satisfying filter: 0.93196451292669
+
+There are 1 states with (approximately) this value:
+13:(false,false,false,false,false,false,false,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.004 seconds.
+
+Result: 0.93196451292669
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], makeCall)
+
+Prob0A: 18 iterations in 0.00 seconds (average 0.000056, setup 0.00)
+
+Prob1E: 11 iterations in 0.00 seconds (average 0.000091, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrices... [nm=2, levels=22, nodes=787] [36.9 KB]
+Adding sparse bits... [levels=22-22, num=2, compact=2/2] [0.4 KB]
+Creating vector for yes... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [38.1 KB]
+
+Starting iterations...
+
+Iterative method: 113 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter makeCall: 3
+
+Maximum value over states satisfying filter: 0.93196451292669
+
+There are 1 states with (approximately) this value:
+13:(false,false,false,false,false,false,false,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.003 seconds.
+
+Result: 0.93196451292669
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], makeCall)
+
+Prob0A: 18 iterations in 0.00 seconds (average 0.000056, setup 0.00)
+
+Prob1E: 11 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrices... [nm=2, levels=22, nodes=787] [36.9 KB]
+Adding sparse bits... [levels=22-22, num=2, compact=2/2] [0.4 KB]
+Creating vector for yes... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [38.1 KB]
+
+Starting iterations...
+
+Iterative method: 113 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter makeCall: 3
+
+Maximum value over states satisfying filter: 0.93196451292669
+
+There are 1 states with (approximately) this value:
+13:(false,false,false,false,false,false,false,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.001 seconds.
+
+Result: 0.93196451292669
+
+//////////////////////////////////////
+0.043
+0.001
+0.003
+0.002
+0.003
+0.002
+0.002
+0.004
+0.003
+0.001
+
+avg = 0.0064
+//////////////////////////
