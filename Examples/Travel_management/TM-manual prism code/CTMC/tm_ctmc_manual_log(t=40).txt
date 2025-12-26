@@ -1,0 +1,399 @@
+Creating vector for diagonals... [dist=13, compact] [0.2 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [42.9 KB]
+
+Uniformisation: q.t = 1020.340000 x 40.000000 = 40813.600000
+Fox-Glynn: left = 39194, right = 42815
+
+Starting iterations...
+
+Iterative method: 42815 iterations in 0.01 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter i0: 1
+
+Maximum value over states satisfying filter: 0.6951211161100963
+
+There are 1 states with (approximately) this value:
+30:(true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.012 seconds.
+
+Result: 0.6951211161100963
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ true U<=t (AF&!fail) ], i0)
+Model constants: t=40
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Computing probabilities...
+Engine: Hybrid
+
+Number of non-absorbing states: 30 of 31 (96.8%)
+
+Building hybrid MTBDD matrix... [levels=22, nodes=887] [41.6 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=13, compact] [0.2 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [42.9 KB]
+
+Uniformisation: q.t = 1020.340000 x 40.000000 = 40813.600000
+Fox-Glynn: left = 39194, right = 42815
+
+Starting iterations...
+
+Iterative method: 42815 iterations in 0.01 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter i0: 1
+
+Maximum value over states satisfying filter: 0.6951211161100963
+
+There are 1 states with (approximately) this value:
+30:(true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.017 seconds.
+
+Result: 0.6951211161100963
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ true U<=t (AF&!fail) ], i0)
+Model constants: t=40
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Computing probabilities...
+Engine: Hybrid
+
+Number of non-absorbing states: 30 of 31 (96.8%)
+
+Building hybrid MTBDD matrix... [levels=22, nodes=887] [41.6 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=13, compact] [0.2 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [42.9 KB]
+
+Uniformisation: q.t = 1020.340000 x 40.000000 = 40813.600000
+Fox-Glynn: left = 39194, right = 42815
+
+Starting iterations...
+
+Iterative method: 42815 iterations in 0.01 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter i0: 1
+
+Maximum value over states satisfying filter: 0.6951211161100963
+
+There are 1 states with (approximately) this value:
+30:(true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.011 seconds.
+
+Result: 0.6951211161100963
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ true U<=t (AF&!fail) ], i0)
+Model constants: t=40
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Computing probabilities...
+Engine: Hybrid
+
+Number of non-absorbing states: 30 of 31 (96.8%)
+
+Building hybrid MTBDD matrix... [levels=22, nodes=887] [41.6 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=13, compact] [0.2 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [42.9 KB]
+
+Uniformisation: q.t = 1020.340000 x 40.000000 = 40813.600000
+Fox-Glynn: left = 39194, right = 42815
+
+Starting iterations...
+
+Iterative method: 42815 iterations in 0.01 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter i0: 1
+
+Maximum value over states satisfying filter: 0.6951211161100963
+
+There are 1 states with (approximately) this value:
+30:(true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.012 seconds.
+
+Result: 0.6951211161100963
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ true U<=t (AF&!fail) ], i0)
+Model constants: t=40
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Computing probabilities...
+Engine: Hybrid
+
+Number of non-absorbing states: 30 of 31 (96.8%)
+
+Building hybrid MTBDD matrix... [levels=22, nodes=887] [41.6 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=13, compact] [0.2 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [42.9 KB]
+
+Uniformisation: q.t = 1020.340000 x 40.000000 = 40813.600000
+Fox-Glynn: left = 39194, right = 42815
+
+Starting iterations...
+
+Iterative method: 42815 iterations in 0.02 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter i0: 1
+
+Maximum value over states satisfying filter: 0.6951211161100963
+
+There are 1 states with (approximately) this value:
+30:(true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.016 seconds.
+
+Result: 0.6951211161100963
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ true U<=t (AF&!fail) ], i0)
+Model constants: t=40
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Computing probabilities...
+Engine: Hybrid
+
+Number of non-absorbing states: 30 of 31 (96.8%)
+
+Building hybrid MTBDD matrix... [levels=22, nodes=887] [41.6 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=13, compact] [0.2 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [42.9 KB]
+
+Uniformisation: q.t = 1020.340000 x 40.000000 = 40813.600000
+Fox-Glynn: left = 39194, right = 42815
+
+Starting iterations...
+
+Iterative method: 42815 iterations in 0.02 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter i0: 1
+
+Maximum value over states satisfying filter: 0.6951211161100963
+
+There are 1 states with (approximately) this value:
+30:(true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.016 seconds.
+
+Result: 0.6951211161100963
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ true U<=t (AF&!fail) ], i0)
+Model constants: t=40
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Computing probabilities...
+Engine: Hybrid
+
+Number of non-absorbing states: 30 of 31 (96.8%)
+
+Building hybrid MTBDD matrix... [levels=22, nodes=887] [41.6 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=13, compact] [0.2 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [42.9 KB]
+
+Uniformisation: q.t = 1020.340000 x 40.000000 = 40813.600000
+Fox-Glynn: left = 39194, right = 42815
+
+Starting iterations...
+
+Iterative method: 42815 iterations in 0.01 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter i0: 1
+
+Maximum value over states satisfying filter: 0.6951211161100963
+
+There are 1 states with (approximately) this value:
+30:(true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.011 seconds.
+
+Result: 0.6951211161100963
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ true U<=t (AF&!fail) ], i0)
+Model constants: t=40
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Computing probabilities...
+Engine: Hybrid
+
+Number of non-absorbing states: 30 of 31 (96.8%)
+
+Building hybrid MTBDD matrix... [levels=22, nodes=887] [41.6 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=13, compact] [0.2 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [42.9 KB]
+
+Uniformisation: q.t = 1020.340000 x 40.000000 = 40813.600000
+Fox-Glynn: left = 39194, right = 42815
+
+Starting iterations...
+
+Iterative method: 42815 iterations in 0.01 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter i0: 1
+
+Maximum value over states satisfying filter: 0.6951211161100963
+
+There are 1 states with (approximately) this value:
+30:(true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.014 seconds.
+
+Result: 0.6951211161100963
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ true U<=t (AF&!fail) ], i0)
+Model constants: t=40
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Computing probabilities...
+Engine: Hybrid
+
+Number of non-absorbing states: 30 of 31 (96.8%)
+
+Building hybrid MTBDD matrix... [levels=22, nodes=887] [41.6 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=13, compact] [0.2 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [42.9 KB]
+
+Uniformisation: q.t = 1020.340000 x 40.000000 = 40813.600000
+Fox-Glynn: left = 39194, right = 42815
+
+Starting iterations...
+
+Iterative method: 42815 iterations in 0.01 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter i0: 1
+
+Maximum value over states satisfying filter: 0.6951211161100963
+
+There are 1 states with (approximately) this value:
+30:(true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.012 seconds.
+
+Result: 0.6951211161100963
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ true U<=t (AF&!fail) ], i0)
+Model constants: t=40
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Computing probabilities...
+Engine: Hybrid
+
+Number of non-absorbing states: 30 of 31 (96.8%)
+
+Building hybrid MTBDD matrix... [levels=22, nodes=887] [41.6 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=13, compact] [0.2 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [42.9 KB]
+
+Uniformisation: q.t = 1020.340000 x 40.000000 = 40813.600000
+Fox-Glynn: left = 39194, right = 42815
+
+Starting iterations...
+
+Iterative method: 42815 iterations in 0.01 seconds (average 0.000000, setup 0.01)
+
+States satisfying filter i0: 1
+
+Maximum value over states satisfying filter: 0.6951211161100963
+
+There are 1 states with (approximately) this value:
+30:(true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.033 seconds.
+
+Result: 0.6951211161100963
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ true U<=t (AF&!fail) ], i0)
+Model constants: t=40
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Computing probabilities...
+Engine: Hybrid
+
+Number of non-absorbing states: 30 of 31 (96.8%)
+
+Building hybrid MTBDD matrix... [levels=22, nodes=887] [41.6 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=13, compact] [0.2 KB]
+Allocating iteration vectors... [3 x 0.2 KB]
+TOTAL: [42.9 KB]
+
+Uniformisation: q.t = 1020.340000 x 40.000000 = 40813.600000
+Fox-Glynn: left = 39194, right = 42815
+
+Starting iterations...
+
+Iterative method: 42815 iterations in 0.01 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter i0: 1
+
+Maximum value over states satisfying filter: 0.6951211161100963
+
+There are 1 states with (approximately) this value:
+30:(true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false)
+
+Time for model checking: 0.01 seconds.
+
+Result: 0.6951211161100963
+
+
+
+
+///////////////////////////////////
+0.012
+0.017
+0.011
+0.012
+0.016
+0.016
+0.011
+0.014
+0.012
+0.033
+0.010
+
+avg= 0.0149
+///////////////////////////////////////

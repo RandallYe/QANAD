@@ -1,0 +1,57 @@
+
+Model checking: P=? [ F<=T "complete" ]
+Property constants: T=100
+
+Computing probabilities...
+Engine: Hybrid
+
+Number of non-absorbing states: 7 of 8 (87.5%)
+
+Building hybrid MTBDD matrix... [levels=3, nodes=41] [1.9 KB]
+Adding explicit sparse matrices... [levels=3, num=1, compact] [0.1 KB]
+Creating vector for diagonals... [dist=7, compact] [0.1 KB]
+Allocating iteration vectors... [3 x 0.1 KB]
+TOTAL: [2.3 KB]
+
+Uniformisation: q.t = 0.101877 x 100.000000 = 10.187676
+Fox-Glynn: left = 0, right = 37
+
+Starting iterations...
+
+Iterative method: 37 iterations in 0.01 seconds (average 0.000000, setup 0.01)
+
+Value in the initial state: 0.4394657757174131
+
+Time for model checking: 0.011 seconds.
+
+Result: 0.4394657757174131
+
+---------------------------------------------------------------------
+
+Model checking: P=? [ (!"reopen"&!"addInfo") U<=T "complete" ]
+Property constants: T=100
+
+Computing probabilities...
+Engine: Hybrid
+
+Number of non-absorbing states: 5 of 8 (62.5%)
+
+Building hybrid MTBDD matrix... [levels=3, nodes=33] [1.5 KB]
+Adding explicit sparse matrices... [levels=3, num=1, compact] [0.1 KB]
+Creating vector for diagonals... [dist=5, compact] [0.1 KB]
+Allocating iteration vectors... [3 x 0.1 KB]
+TOTAL: [1.9 KB]
+
+Uniformisation: q.t = 0.099947 x 100.000000 = 9.994661
+Fox-Glynn: left = 0, right = 36
+
+Starting iterations...
+
+Iterative method: 36 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+Value in the initial state: 0.42968005403104964
+
+Time for model checking: 0.001 seconds.
+
+Result: 0.42968005403104964
+

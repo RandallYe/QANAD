@@ -1,0 +1,6 @@
+const double T = 100;
+
+P=? [ F<=T "complete" ]
+
+P=? [ (!"reopen"&!"addInfo") U<=T "complete" ]
+

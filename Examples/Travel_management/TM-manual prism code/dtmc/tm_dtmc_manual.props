@@ -1,0 +1,12 @@
+const int C1;
+
+!E [ F "deadlock" ]
+
+Pmax=? [ F AF=true ]
+
+Pmax=? [ (F (checkSchedule = true))=>(F (AF=true)) ]
+
+P=? [ true U<=t (AF = true) ]
+
+Pmax=? [ (F (makeCall=true))=>(F (AF=true)) ]
+
