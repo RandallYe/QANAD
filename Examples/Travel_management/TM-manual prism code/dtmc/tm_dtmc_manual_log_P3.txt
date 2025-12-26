@@ -1,0 +1,378 @@
+
+There are 1 states with (approximately) this value:
+7:(false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false)
+
+Time for model checking: 0.044 seconds.
+
+Result: 0.9507920792031512
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], requestMeeting)
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Prob0: 18 iterations in 0.00 seconds (average 0.000056, setup 0.00)
+
+Prob1: 4 iterations in 0.00 seconds (average 0.000250, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrix... [levels=22, nodes=645] [30.2 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=1, compact] [0.1 KB]
+Creating vector for RHS... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [2 x 0.2 KB]
+TOTAL: [31.2 KB]
+
+Starting iterations...
+
+Jacobi: 113 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter requestMeeting: 1
+
+Maximum value over states satisfying filter: 0.9507920792031512
+
+There are 1 states with (approximately) this value:
+7:(false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false)
+
+Time for model checking: 0.004 seconds.
+
+Result: 0.9507920792031512
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], requestMeeting)
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Prob0: 18 iterations in 0.00 seconds (average 0.000167, setup 0.00)
+
+Prob1: 4 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrix... [levels=22, nodes=645] [30.2 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=1, compact] [0.1 KB]
+Creating vector for RHS... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [2 x 0.2 KB]
+TOTAL: [31.2 KB]
+
+Starting iterations...
+
+Jacobi: 113 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter requestMeeting: 1
+
+Maximum value over states satisfying filter: 0.9507920792031512
+
+There are 1 states with (approximately) this value:
+7:(false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false)
+
+Time for model checking: 0.005 seconds.
+
+Result: 0.9507920792031512
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], requestMeeting)
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Prob0: 18 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+Prob1: 4 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrix... [levels=22, nodes=645] [30.2 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=1, compact] [0.1 KB]
+Creating vector for RHS... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [2 x 0.2 KB]
+TOTAL: [31.2 KB]
+
+Starting iterations...
+
+Jacobi: 113 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter requestMeeting: 1
+
+Maximum value over states satisfying filter: 0.9507920792031512
+
+There are 1 states with (approximately) this value:
+7:(false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false)
+
+Time for model checking: 0.002 seconds.
+
+Result: 0.9507920792031512
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], requestMeeting)
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Prob0: 18 iterations in 0.00 seconds (average 0.000111, setup 0.00)
+
+Prob1: 4 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrix... [levels=22, nodes=645] [30.2 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=1, compact] [0.1 KB]
+Creating vector for RHS... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [2 x 0.2 KB]
+TOTAL: [31.2 KB]
+
+Starting iterations...
+
+Jacobi: 113 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter requestMeeting: 1
+
+Maximum value over states satisfying filter: 0.9507920792031512
+
+There are 1 states with (approximately) this value:
+7:(false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false)
+
+Time for model checking: 0.004 seconds.
+
+Result: 0.9507920792031512
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], requestMeeting)
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Prob0: 18 iterations in 0.00 seconds (average 0.000222, setup 0.00)
+
+Prob1: 4 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrix... [levels=22, nodes=645] [30.2 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=1, compact] [0.1 KB]
+Creating vector for RHS... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [2 x 0.2 KB]
+TOTAL: [31.2 KB]
+
+Starting iterations...
+
+Jacobi: 113 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter requestMeeting: 1
+
+Maximum value over states satisfying filter: 0.9507920792031512
+
+There are 1 states with (approximately) this value:
+7:(false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false)
+
+Time for model checking: 0.005 seconds.
+
+Result: 0.9507920792031512
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], requestMeeting)
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Prob0: 18 iterations in 0.00 seconds (average 0.000056, setup 0.00)
+
+Prob1: 4 iterations in 0.00 seconds (average 0.000250, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrix... [levels=22, nodes=645] [30.2 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=1, compact] [0.1 KB]
+Creating vector for RHS... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [2 x 0.2 KB]
+TOTAL: [31.2 KB]
+
+Starting iterations...
+
+Jacobi: 113 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter requestMeeting: 1
+
+Maximum value over states satisfying filter: 0.9507920792031512
+
+There are 1 states with (approximately) this value:
+7:(false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false)
+
+Time for model checking: 0.003 seconds.
+
+Result: 0.9507920792031512
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], requestMeeting)
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Prob0: 18 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+Prob1: 4 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrix... [levels=22, nodes=645] [30.2 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=1, compact] [0.1 KB]
+Creating vector for RHS... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [2 x 0.2 KB]
+TOTAL: [31.2 KB]
+
+Starting iterations...
+
+Jacobi: 113 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter requestMeeting: 1
+
+Maximum value over states satisfying filter: 0.9507920792031512
+
+There are 1 states with (approximately) this value:
+7:(false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false)
+
+Time for model checking: 0.002 seconds.
+
+Result: 0.9507920792031512
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], requestMeeting)
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Prob0: 18 iterations in 0.00 seconds (average 0.000167, setup 0.00)
+
+Prob1: 4 iterations in 0.00 seconds (average 0.000250, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrix... [levels=22, nodes=645] [30.2 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=1, compact] [0.1 KB]
+Creating vector for RHS... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [2 x 0.2 KB]
+TOTAL: [31.2 KB]
+
+Starting iterations...
+
+Jacobi: 113 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter requestMeeting: 1
+
+Maximum value over states satisfying filter: 0.9507920792031512
+
+There are 1 states with (approximately) this value:
+7:(false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false)
+
+Time for model checking: 0.005 seconds.
+
+Result: 0.9507920792031512
+
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], requestMeeting)
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Prob0: 18 iterations in 0.00 seconds (average 0.000056, setup 0.00)
+
+Prob1: 4 iterations in 0.00 seconds (average 0.000250, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrix... [levels=22, nodes=645] [30.2 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=1, compact] [0.1 KB]
+Creating vector for RHS... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [2 x 0.2 KB]
+TOTAL: [31.2 KB]
+
+Starting iterations...
+
+Jacobi: 113 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter requestMeeting: 1
+
+Maximum value over states satisfying filter: 0.9507920792031512
+
+There are 1 states with (approximately) this value:
+7:(false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false)
+
+Time for model checking: 0.003 seconds.
+
+Result: 0.9507920792031512
+
+---------------------------------------------------------------------
+
+Model checking: filter(max, Pmax=? [ F AF&!fail ], requestMeeting)
+
+Warning: "Pmin=?" and "Pmax=?" operators are identical to "P=?" for DTMCs/CTMCs
+
+Prob0: 18 iterations in 0.00 seconds (average 0.000056, setup 0.00)
+
+Prob1: 4 iterations in 0.00 seconds (average 0.000250, setup 0.00)
+
+yes = 2, no = 3, maybe = 26
+
+Computing remaining probabilities...
+Engine: Hybrid
+
+Building hybrid MTBDD matrix... [levels=22, nodes=645] [30.2 KB]
+Adding explicit sparse matrices... [levels=22, num=1, compact] [0.4 KB]
+Creating vector for diagonals... [dist=1, compact] [0.1 KB]
+Creating vector for RHS... [dist=2, compact] [0.1 KB]
+Allocating iteration vectors... [2 x 0.2 KB]
+TOTAL: [31.2 KB]
+
+Starting iterations...
+
+Jacobi: 113 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+
+States satisfying filter requestMeeting: 1
+
+Maximum value over states satisfying filter: 0.9507920792031512
+
+There are 1 states with (approximately) this value:
+7:(false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false)
+
+Time for model checking: 0.004 seconds.
+
+Result: 0.9507920792031512

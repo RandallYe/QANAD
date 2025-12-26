@@ -1,0 +1,6 @@
+const double T = 200;
+
+P=? [ F<=T "close" ]
+
+P=? [ (!"reopen"&!"suspended") U<=T "close" ]
+
